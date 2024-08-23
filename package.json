@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node check_redirect_csv_with_target_status.js input.csv output.csv"
+    "test": "npx playwright test",
+    "show": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
@@ -11,7 +12,6 @@
   "description": "",
   "dependencies": {
     "csv-parse": "^5.5.6",
-    "csv-parser": "^3.0.0",
     "playwright": "^1.46.1"
   },
   "devDependencies": {
